@@ -2,4 +2,6 @@
 *.png
 !assets/**/*.png
 !packaging/AppIcon.png
+!docs/*.png
+!docs/**/*.png
 .DS_Store
