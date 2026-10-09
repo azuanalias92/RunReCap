@@ -1,0 +1,18 @@
+[package]
+name = "recap-render"
+description = "Turns RunReCap activities + a theme into wallpaper pixels. No AppKit dependencies."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+recap-core.workspace = true
+serde.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+tiny-skia.workspace = true
+cosmic-text.workspace = true
+time.workspace = true
+
+[dev-dependencies]
+serde_json.workspace = true

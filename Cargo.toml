@@ -1,0 +1,45 @@
+[workspace]
+resolver = "2"
+members = ["crates/recap-core", "crates/recap-render", "crates/recap-macos", "crates/recap-app"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+rust-version = "1.85"
+
+[workspace.dependencies]
+recap-core = { path = "crates/recap-core" }
+recap-render = { path = "crates/recap-render" }
+recap-macos = { path = "crates/recap-macos" }
+
+anyhow = "1"
+thiserror = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+quick-xml = "0.37"
+time = { version = "0.3", features = ["parsing", "formatting", "macros", "local-offset"] }
+flate2 = "1"
+zip = { version = "2", default-features = false, features = ["deflate"] }
+csv = "1"
+sha2 = "0.10"
+tiny-skia = "0.11"
+cosmic-text = "0.12"
+clap = { version = "4", features = ["derive"] }
+dirs = "6"
+objc2 = "0.6"
+objc2-foundation = "0.3"
+objc2-app-kit = "0.3"
+objc2-service-management = "0.3"
+objc2-image-io = "0.3"
+objc2-core-foundation = "0.3"
+objc2-core-graphics = "0.3"
+objc2-quartz-core = { version = "0.3", features = ["CALayer", "objc2-core-foundation", "objc2-core-graphics"] }
+block2 = "0.6"
+dispatch2 = "0.3"
+
+[profile.dev.package."*"]
+opt-level = 2

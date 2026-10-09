@@ -1,0 +1,32 @@
+[package]
+name = "recap-app"
+description = "RunReCap menu-bar app and CLI."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "runrecap"
+path = "src/main.rs"
+
+[dependencies]
+recap-core.workspace = true
+recap-render.workspace = true
+recap-macos.workspace = true
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+sha2.workspace = true
+toml.workspace = true
+tracing.workspace = true
+tracing-subscriber.workspace = true
+clap.workspace = true
+dirs.workspace = true
+time.workspace = true
+tiny-skia.workspace = true
+objc2.workspace = true
+objc2-foundation.workspace = true
+objc2-app-kit.workspace = true
+objc2-quartz-core.workspace = true
+block2.workspace = true
+dispatch2.workspace = true

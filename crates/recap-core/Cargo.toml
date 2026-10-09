@@ -1,0 +1,18 @@
+[package]
+name = "recap-core"
+description = "GPX parsing, import, library, filtering and geometry for RunReCap. No macOS dependencies."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+quick-xml.workspace = true
+time.workspace = true
+flate2.workspace = true
+zip.workspace = true
+csv.workspace = true
+sha2.workspace = true

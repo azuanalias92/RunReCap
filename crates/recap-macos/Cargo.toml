@@ -1,0 +1,16 @@
+[package]
+name = "recap-macos"
+description = "objc2 glue for RunReCap: screens, wallpaper, appearance, login item. All unsafe/Obj-C lives here."
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tracing.workspace = true
+objc2.workspace = true
+objc2-foundation.workspace = true
+objc2-app-kit.workspace = true
+objc2-service-management.workspace = true
+objc2-image-io.workspace = true
+objc2-core-foundation.workspace = true
+objc2-core-graphics.workspace = true

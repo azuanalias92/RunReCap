@@ -1,0 +1,3 @@
+# Minimum supported macOS (AGENTS.md §6.1): versions released in the last 5 years.
+[env]
+MACOSX_DEPLOYMENT_TARGET = "13.0"

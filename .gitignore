@@ -1,0 +1,5 @@
+/target
+*.png
+!assets/**/*.png
+!packaging/AppIcon.png
+.DS_Store
