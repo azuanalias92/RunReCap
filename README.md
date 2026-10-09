@@ -4,7 +4,7 @@
 
 <h1 align="center">RunReCap</h1>
 
-<p align="center">Your past runs, drawn from GPX, as your Mac's wallpaper.<br><a href="https://azuanalias92.github.io/RunReCap/">Website</a> · <a href="https://github.com/azuanalias92/RunReCap/releases/latest">Download</a></p>
+<p align="center">Your past runs, drawn from GPX, as your Mac's wallpaper.<br><a href="https://azuanalias.com/RunReCap/">Website</a> · <a href="https://github.com/azuanalias92/RunReCap/releases/latest">Download</a></p>
 
 <p align="center">
   <img src="docs/screenshot.png" width="760" alt="The RunReCap window: a wallpaper preview of a figure-eight run, run stats, layout and theme pickers, and the Set as Wallpaper button">
